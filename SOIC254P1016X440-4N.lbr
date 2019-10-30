@@ -1,0 +1,204 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE eagle SYSTEM "eagle.dtd">
+<eagle version="9.5.1">
+<drawing>
+<settings>
+<setting alwaysvectorfont="no"/>
+<setting keepoldvectorfont="yes"/>
+<setting verticaltext="up"/>
+</settings>
+<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
+<layers>
+<layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
+<layer number="16" name="Bottom" color="1" fill="1" visible="yes" active="yes"/>
+<layer number="17" name="Pads" color="2" fill="1" visible="yes" active="yes"/>
+<layer number="18" name="Vias" color="2" fill="1" visible="yes" active="yes"/>
+<layer number="19" name="Unrouted" color="6" fill="1" visible="yes" active="yes"/>
+<layer number="20" name="Dimension" color="15" fill="1" visible="yes" active="yes"/>
+<layer number="21" name="tPlace" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="22" name="bPlace" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="23" name="tOrigins" color="15" fill="1" visible="yes" active="yes"/>
+<layer number="24" name="bOrigins" color="15" fill="1" visible="yes" active="yes"/>
+<layer number="25" name="tNames" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="26" name="bNames" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="27" name="tValues" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="28" name="bValues" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="29" name="tStop" color="7" fill="3" visible="yes" active="yes"/>
+<layer number="30" name="bStop" color="7" fill="6" visible="no" active="yes"/>
+<layer number="31" name="tCream" color="7" fill="4" visible="yes" active="yes"/>
+<layer number="32" name="bCream" color="7" fill="5" visible="no" active="yes"/>
+<layer number="33" name="tFinish" color="6" fill="3" visible="no" active="yes"/>
+<layer number="34" name="bFinish" color="6" fill="6" visible="no" active="yes"/>
+<layer number="35" name="tGlue" color="7" fill="4" visible="no" active="yes"/>
+<layer number="36" name="bGlue" color="7" fill="5" visible="no" active="yes"/>
+<layer number="37" name="tTest" color="7" fill="1" visible="no" active="yes"/>
+<layer number="38" name="bTest" color="7" fill="1" visible="no" active="yes"/>
+<layer number="39" name="tKeepout" color="4" fill="11" visible="yes" active="yes"/>
+<layer number="40" name="bKeepout" color="1" fill="11" visible="yes" active="yes"/>
+<layer number="41" name="tRestrict" color="4" fill="10" visible="yes" active="yes"/>
+<layer number="42" name="bRestrict" color="1" fill="10" visible="yes" active="yes"/>
+<layer number="43" name="vRestrict" color="2" fill="10" visible="yes" active="yes"/>
+<layer number="44" name="Drills" color="7" fill="1" visible="no" active="yes"/>
+<layer number="45" name="Holes" color="7" fill="1" visible="no" active="yes"/>
+<layer number="46" name="Milling" color="3" fill="1" visible="no" active="yes"/>
+<layer number="47" name="Measures" color="7" fill="1" visible="no" active="yes"/>
+<layer number="48" name="Document" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="49" name="Reference" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="51" name="tDocu" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="52" name="bDocu" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="90" name="Modules" color="5" fill="1" visible="yes" active="yes"/>
+<layer number="91" name="Nets" color="2" fill="1" visible="yes" active="yes"/>
+<layer number="92" name="Busses" color="1" fill="1" visible="yes" active="yes"/>
+<layer number="93" name="Pins" color="2" fill="1" visible="yes" active="yes"/>
+<layer number="94" name="Symbols" color="4" fill="1" visible="yes" active="yes"/>
+<layer number="95" name="Names" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="96" name="Values" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="97" name="Info" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="98" name="Guide" color="6" fill="1" visible="yes" active="yes"/>
+</layers>
+<library>
+<packages>
+<package name="LOGT77K">
+<circle x="-4.217" y="1.771" radius="0.1" width="0.2" layer="21"/>
+<circle x="-4.217" y="1.771" radius="0.1" width="0.2" layer="51"/>
+<text x="-5.59" y="-2.727" size="1.27" layer="27" align="top-left">&gt;VALUE</text>
+<text x="-5.59" y="2.727" size="1.27" layer="25">&gt;NAME</text>
+<smd name="1" x="-2.58" y="1.016" dx="2.09" dy="1.39" layer="1" roundness="25"/>
+<smd name="2" x="-2.54" y="-1.016" dx="2.09" dy="1.39" layer="1" roundness="25"/>
+<smd name="3" x="2.655" y="-1.016" dx="2.09" dy="1.39" layer="1" roundness="25"/>
+<smd name="4" x="2.655" y="1.036" dx="2.09" dy="1.39" layer="1" roundness="25"/>
+<wire x1="-1.455" y1="-1.655" x2="-1.455" y2="1.755" width="0.127" layer="21" locked="yes"/>
+<wire x1="-1.455" y1="1.755" x2="1.56" y2="1.755" width="0.127" layer="21" locked="yes"/>
+<wire x1="1.56" y1="1.755" x2="1.56" y2="-1.625" width="0.127" layer="21" locked="yes"/>
+<wire x1="1.56" y1="-1.625" x2="-1.475" y2="-1.625" width="0.127" layer="21" locked="yes"/>
+<circle x="4.48406875" y="-1.886490625" radius="0.1" width="0.2" layer="51"/>
+<polygon width="0.127" layer="29">
+<vertex x="1.30289375" y="1.486534375"/>
+<vertex x="0.529478125" y="1.50788125" curve="90"/>
+<vertex x="-0.994434375" y="-0.097771875"/>
+<vertex x="-1.109484375" y="-1.351853125" curve="90"/>
+<vertex x="-1.102759375" y="-1.358578125"/>
+<vertex x="-0.33745" y="-1.34356875" curve="90"/>
+<vertex x="1.18926875" y="0.18315"/>
+</polygon>
+<polygon width="0.127" layer="41">
+<vertex x="1.30084375" y="1.489125"/>
+<vertex x="0.527428125" y="1.510471875" curve="90"/>
+<vertex x="-0.996484375" y="-0.09518125"/>
+<vertex x="-1.111534375" y="-1.3492625" curve="90"/>
+<vertex x="-1.104809375" y="-1.3559875"/>
+<vertex x="-0.3395" y="-1.340978125" curve="90"/>
+<vertex x="1.18721875" y="0.185740625"/>
+</polygon>
+</package>
+<package name="LOGT77K-RGB">
+<circle x="-4.217" y="1.771" radius="0.1" width="0.2" layer="21"/>
+<text x="-5.59" y="-2.727" size="1.27" layer="27" align="top-left">&gt;VALUE</text>
+<text x="-5.59" y="2.727" size="1.27" layer="25">&gt;NAME</text>
+<smd name="1" x="-2.58" y="1.016" dx="2.09" dy="1.39" layer="1" roundness="25"/>
+<smd name="2" x="-2.54" y="-1.016" dx="2.09" dy="1.39" layer="1" roundness="25"/>
+<smd name="3" x="2.655" y="-1.016" dx="2.09" dy="1.39" layer="1" roundness="25"/>
+<smd name="4" x="2.655" y="1.036" dx="2.09" dy="1.39" layer="1" roundness="25"/>
+<wire x1="-1.455" y1="-1.655" x2="-1.455" y2="1.755" width="0.127" layer="21" locked="yes"/>
+<wire x1="-1.455" y1="1.755" x2="1.56" y2="1.755" width="0.127" layer="21" locked="yes"/>
+<wire x1="1.56" y1="1.755" x2="1.56" y2="-1.625" width="0.127" layer="21" locked="yes"/>
+<wire x1="1.56" y1="-1.625" x2="-1.475" y2="-1.625" width="0.127" layer="21" locked="yes"/>
+<polygon width="0.127" layer="29">
+<vertex x="1.30289375" y="1.486534375"/>
+<vertex x="0.529478125" y="1.50788125" curve="90"/>
+<vertex x="-0.994434375" y="-0.097771875"/>
+<vertex x="-1.109484375" y="-1.351853125" curve="90"/>
+<vertex x="-1.102759375" y="-1.358578125"/>
+<vertex x="-0.33745" y="-1.34356875" curve="90"/>
+<vertex x="1.18926875" y="0.18315"/>
+</polygon>
+<polygon width="0.127" layer="41">
+<vertex x="1.30084375" y="1.489125"/>
+<vertex x="0.527428125" y="1.510471875" curve="90"/>
+<vertex x="-0.996484375" y="-0.09518125"/>
+<vertex x="-1.111534375" y="-1.3492625" curve="90"/>
+<vertex x="-1.104809375" y="-1.3559875"/>
+<vertex x="-0.3395" y="-1.340978125" curve="90"/>
+<vertex x="1.18721875" y="0.185740625"/>
+</polygon>
+</package>
+</packages>
+<symbols>
+<symbol name="LOGT77K">
+<wire x1="-33.02" y1="17.78" x2="-33.02" y2="12.7" width="0.254" layer="94"/>
+<wire x1="-33.02" y1="12.7" x2="-33.02" y2="0" width="0.254" layer="94"/>
+<wire x1="-33.02" y1="0" x2="-33.02" y2="-5.08" width="0.254" layer="94"/>
+<wire x1="-33.02" y1="-5.08" x2="-7.62" y2="-5.08" width="0.254" layer="94"/>
+<wire x1="-7.62" y1="-5.08" x2="-7.62" y2="0" width="0.254" layer="94"/>
+<wire x1="-7.62" y1="0" x2="-7.62" y2="12.7" width="0.254" layer="94"/>
+<wire x1="-7.62" y1="12.7" x2="-7.62" y2="17.78" width="0.254" layer="94"/>
+<wire x1="-7.62" y1="17.78" x2="-33.02" y2="17.78" width="0.254" layer="94"/>
+<circle x="-29.464" y="14.224" radius="1.83161875" width="0.254" layer="94"/>
+<pin name="P1" x="-38.1" y="12.7" length="middle"/>
+<pin name="P4" x="-38.1" y="0" length="middle"/>
+<pin name="P2" x="-2.54" y="12.7" length="middle" rot="R180"/>
+<pin name="P3" x="-2.54" y="0" length="middle" rot="R180"/>
+</symbol>
+<symbol name="LOGT77K-RGB">
+<wire x1="-33.02" y1="17.78" x2="-33.02" y2="12.7" width="0.254" layer="94"/>
+<wire x1="-33.02" y1="12.7" x2="-33.02" y2="0" width="0.254" layer="94"/>
+<wire x1="-33.02" y1="0" x2="-33.02" y2="-5.08" width="0.254" layer="94"/>
+<wire x1="-33.02" y1="-5.08" x2="-7.62" y2="-5.08" width="0.254" layer="94"/>
+<wire x1="-7.62" y1="-5.08" x2="-7.62" y2="0" width="0.254" layer="94"/>
+<wire x1="-7.62" y1="0" x2="-7.62" y2="12.7" width="0.254" layer="94"/>
+<wire x1="-7.62" y1="12.7" x2="-7.62" y2="17.78" width="0.254" layer="94"/>
+<wire x1="-7.62" y1="17.78" x2="-33.02" y2="17.78" width="0.254" layer="94"/>
+<circle x="-29.464" y="14.224" radius="1.83161875" width="0.254" layer="94"/>
+<pin name="P1" x="-38.1" y="12.7" length="middle"/>
+<pin name="P4" x="-38.1" y="0" length="middle"/>
+<pin name="P2" x="-2.54" y="12.7" length="middle" rot="R180"/>
+<pin name="P3" x="-2.54" y="0" length="middle" rot="R180"/>
+</symbol>
+</symbols>
+<devicesets>
+<deviceset name="LOGT77K">
+<gates>
+<gate name="G$1" symbol="LOGT77K" x="20.32" y="-5.08"/>
+</gates>
+<devices>
+<device name="" package="LOGT77K">
+<connects>
+<connect gate="G$1" pin="P1" pad="1"/>
+<connect gate="G$1" pin="P2" pad="4"/>
+<connect gate="G$1" pin="P3" pad="3"/>
+<connect gate="G$1" pin="P4" pad="2"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="LOGT77K-RGB">
+<gates>
+<gate name="G$1" symbol="LOGT77K-RGB" x="20.32" y="-2.54"/>
+</gates>
+<devices>
+<device name="" package="LOGT77K-RGB">
+<connects>
+<connect gate="G$1" pin="P1" pad="1"/>
+<connect gate="G$1" pin="P2" pad="2"/>
+<connect gate="G$1" pin="P3" pad="3"/>
+<connect gate="G$1" pin="P4" pad="4"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+</devicesets>
+</library>
+</drawing>
+<compatibility>
+<note version="8.5" severity="warning">
+Since Version 8.5, EAGLE supports locking for holes, vias, wires and polygons. 
+The locking property on all objects of these types will not be understood in this version. 
+</note>
+</compatibility>
+</eagle>
