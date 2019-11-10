@@ -7,7 +7,7 @@
 <setting keepoldvectorfont="yes"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="50" unitdist="mil" unit="mil" style="lines" multiple="1" display="yes" altdistance="5" altunitdist="mil" altunit="mil"/>
+<grid distance="0.5" unitdist="mm" unit="mm" style="lines" multiple="1" display="yes" altdistance="0.0005" altunitdist="mm" altunit="mm"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="16" name="Bottom" color="1" fill="1" visible="yes" active="yes"/>
@@ -1721,21 +1721,7 @@ Source: http://www.osram.convergy.de/ ... Lb_q993.pdf</description>
 </package>
 <package name="CHIPLED_1206" urn="urn:adsk.eagle:footprint:15675/1" locally_modified="yes">
 <description>&lt;b&gt;CHIPLED&lt;/b&gt;&lt;p&gt;
-Source: http://www.osram.convergy.de/ ... LG_LY N971.pdf
-&lt;p/&gt;
-1206 Red/Green/Blue/White/Yellow
-&lt;p/&gt;
-5*100pcs=500PCS/LOT
-&lt;p/&gt;
-1206 RED 100-120 1.8-2.0V 20MA  
-&lt;p/&gt;
-1206 BLUE 120-150 3.0-3.2V 20MA  
-&lt;p/&gt;
-1206 GREEN 400-500 3.0-3.2V 20MA  
-&lt;p/&gt;
-1206 YELLOW 120-150 1.8-2.0V 20MA  
-&lt;p/&gt;
-1206 WHITE 500-600 3.0-3.2V 20MA</description>
+Source: http://www.osram.convergy.de/ ... LG_LY N971.pdf</description>
 <wire x1="-0.4" y1="1.6" x2="0.4" y2="1.6" width="0.1016" layer="51" curve="172.619069"/>
 <wire x1="-0.8" y1="-0.95" x2="-0.8" y2="0.95" width="0.1016" layer="51"/>
 <wire x1="0.8" y1="0.95" x2="0.8" y2="-0.95" width="0.1016" layer="51"/>

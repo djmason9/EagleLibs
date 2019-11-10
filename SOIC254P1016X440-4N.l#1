@@ -59,7 +59,7 @@
 <library>
 <packages>
 <package name="LOGT77K">
-<circle x="-4.598" y="-1.658" radius="0.1" width="0.2" layer="21"/>
+<circle x="-4.598" y="1.517" radius="0.1" width="0.2" layer="21"/>
 <text x="-5.59" y="-2.727" size="1.27" layer="27" align="top-left">&gt;VALUE</text>
 <text x="-5.59" y="2.727" size="1.27" layer="25">&gt;NAME</text>
 <smd name="4" x="-2.58" y="1.016" dx="2.09" dy="1.39" layer="1" roundness="25"/>
@@ -70,7 +70,7 @@
 <wire x1="-1.455" y1="1.755" x2="1.56" y2="1.755" width="0.127" layer="21" locked="yes"/>
 <wire x1="1.56" y1="1.755" x2="1.56" y2="-1.625" width="0.127" layer="21" locked="yes"/>
 <wire x1="1.56" y1="-1.625" x2="-1.475" y2="-1.625" width="0.127" layer="21" locked="yes"/>
-<circle x="4.48406875" y="1.542509375" radius="0.1" width="0.2" layer="25"/>
+<circle x="4.48406875" y="-1.505490625" radius="0.1" width="0.2" layer="25"/>
 <polygon width="0.127" layer="29">
 <vertex x="1.30289375" y="1.486534375"/>
 <vertex x="0.529478125" y="1.50788125" curve="90"/>
